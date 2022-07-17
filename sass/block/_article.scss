@@ -1,0 +1,54 @@
+@use "./../variables";
+.mask{
+  width: 1200px;
+  display: flex;
+  gap: 10px;
+  &__span{
+    margin-bottom: 36px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5E5F61;
+    position: relative;
+    padding-left: 25px;
+  }
+  &__span::before{
+    background-image: url(./../../images/g.png);
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto;
+    transform: translateY(-3px);
+    z-index: 1;
+  }
+  &__heading{
+    margin-bottom: 20px;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+  }
+  &__img{
+    width: 797px;
+    height: 300px;
+    border-radius: 13px;
+    overflow: hidden;
+    margin-bottom: 25px;
+  }
+  &__text{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 24px;
+  }
+  &__text:nth-child(6){
+    margin-bottom: 0;
+    margin-bottom: 50px;
+  }
+ 
+
+}

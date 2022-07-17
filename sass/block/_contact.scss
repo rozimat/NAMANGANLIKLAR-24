@@ -1,0 +1,80 @@
+.contact{
+  height: 431px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  
+  &__heading  {
+    font-size: 24px;
+    line-height: 28px;
+    padding-bottom: 20px;
+  }
+  &__wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 696px;
+  height: 620px;
+  gap: 10px;
+  &__wrapper{
+    width: 696px;
+    height: 55px;
+    &--icon{
+      padding: 19px;
+      width: 343px;
+      height: 55px;
+      border-radius: 10px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+  &__email{
+    width: 696px;
+    height: 55px;
+    padding: 19px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+  }
+  &__textarea{
+    width: 696px;
+    height: 180px;
+    resize: none;
+    padding-left: 17px;
+    padding-top: 17px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+  }
+  &__submit{
+    width: 145px;
+    height: 53px;
+    background: #7297EF;
+    border-radius: 10px;
+    color: #ffffff;
+    align-self: flex-end;
+
+  }
+}
+.adres{
+  background: #F6F6F6;
+  border-radius: 10px;
+  width: 494px;
+  height: 310px;
+  padding: 40px 25px;
+  &__heading{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  &__link{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+}

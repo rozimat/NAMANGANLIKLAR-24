@@ -1,0 +1,90 @@
+.hero{
+  width: 1200px;
+  height: 740px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  &__wrapper{
+    width: 393px;
+    height: 382px;
+    left: 120px;
+    top: 394px;
+    background: #F6F6F6;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+  }
+  &__img{
+    margin-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  &__heading{
+    margin: 0;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+  }
+  &__text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4A4B4C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+ &__footer{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5E5F61;
+  position: relative;
+  padding-left: 30px;
+ }
+ &__widelink::befor{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  left: 0;
+ }
+ &__footer::before{
+    content: "";
+    position: absolute;
+    margin-left: 15px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: auto;
+    left: -4%;
+    top: -1%;
+    overflow: hidden;
+    border-radius: 5px;
+ }
+ &__footer--icon1::before{
+    background-image: url("./../../images/kv.png");
+  }
+ &__footer--icon2::before{
+  background-image: url("./../../images/g.png");
+  }
+  &__footer--icon3::before{
+    background-image: url("./../../images/hpluse.png");
+  }
+  &__footer--icon4::before{
+    background-image: url("./../../images/digger.png");
+  }
+  &__footer--icon5::before{
+    background-image: url("./../../images/lentur.png");
+  }
+  &__footer--icon5::before{
+    background-image: url("./../../images/lentur.png");
+  }
+  &__footer--icon6::before{
+    background-image: url("./../../images/trantas.png");
+  }
+}

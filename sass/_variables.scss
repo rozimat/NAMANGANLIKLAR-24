@@ -1,0 +1,10 @@
+@mixin beforee {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto;
+}

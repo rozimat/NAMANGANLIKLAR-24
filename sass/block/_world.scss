@@ -1,0 +1,129 @@
+.world{
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+  &__heading {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  &__wrapper{
+    display: flex;
+    justify-content: space-between;
+    &--left{
+      width: 797px;
+      display: flex;
+      flex-direction: column;
+    }
+    &--right{
+      width: 393px;
+      border-radius: 10px;
+      
+    }
+  }
+  &__again{
+    width: 796px;
+    height: 53px;
+    background-color: #EAEAEA;
+    padding: 17px 343px;
+    border-radius: 10px;
+    &--link{
+      color: #000000;
+      text-decoration: none;
+      font-size: 16px;
+      line-height: 19px;    
+    }
+  }
+
+}
+.mainly{
+  margin: 0;
+
+ 
+  &__link{
+    text-decoration: none;
+    color:#5E5F61;
+  }
+}
+.link__wrapper{
+  width: 393px;
+  padding: 17px;
+  background-color: #f6f6f6f6;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.card:nth-child(40){
+  margin-bottom: 0;
+}
+.card{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F6F6F6;
+  border-radius: 15px;;
+  padding: 20px;
+  margin-bottom: 10px;
+  &__img{
+    margin-right: 10px;
+    overflow:hidden;
+    border-radius:10px;
+  }
+  &__heading{
+    margin: 0;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+  }
+  &__text{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+  }
+  &__span{
+    display: flex;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color:#5E5F61;
+    position: relative;
+    
+    
+  }
+  &__wrapper{
+    width: 535px;
+  }
+  &__span::before{
+    content: " ";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    transform: translateX(-80%);
+    transform: translateY(-20%);
+    margin-right: 10px;
+  }
+   
+  
+  &__span1::before{
+    background-image: url(./../../images/kv.png);
+  
+  }
+  &__span2::before{
+    background-image: url(./../../images/kv.png);
+    
+  }
+  &__span3::before{
+    background-image: url(./../../images/kv.png);
+  }
+  &__span4::before{
+    background-image: url(./../../images/kv.png);
+  }
+}

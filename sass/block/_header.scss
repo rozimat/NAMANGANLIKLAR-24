@@ -1,0 +1,111 @@
+
+.header{
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  max-width: 1440px;
+  height: 105px;
+  background-color: #F6F6F6;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  &__wrapper{
+    width: 1200px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    
+  }
+  &__img{
+    width: 264px;
+    height: 28px;
+    background-color: #ffffff;
+    padding: 2px;
+    margin-right: 10px;
+  }
+  &__strong{
+    color: #2959ce;
+    margin-right: 2px;
+  }
+  &__currensy{
+    display: flex;
+    margin-left: 25px;
+  }
+  &__label--item{
+    width: 275px;
+    height: 45px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 40px;
+    border: none;
+    border-radius: 60px;
+  }
+  &__label{
+    position:relative;
+    display: flex;
+    align-items: center;
+  }
+  &__search{
+    margin-left: 245px;
+    margin-right: 25px;
+  }
+  &__label::before{
+    content: "";
+    position: absolute;
+    margin-left: 15px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("./../../images/lupa.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+  }
+  &__lang {
+    background-color: #dce6ff;
+    border-radius: 39px;
+    width: 70px;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+    &-label {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      font-size: 13px;
+      line-height: 12px;
+      color: #a6a6a6;
+      cursor: pointer;
+    }
+    &__label--active {
+    color: #000000;
+    background-color: #ffffff;
+    }
+  }
+  &__radio:checked + label {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  &__login {
+    border-radius: 10px;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #7296ec;
+    margin-left: 25px;
+
+  }
+  .contact__links{
+    text-decoration: none;
+    color: #ffffff;
+  }
+}

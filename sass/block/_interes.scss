@@ -1,0 +1,48 @@
+.interes{
+  display: flex;
+  flex-direction: column;
+  &__wrapper{
+    width: 1200px;
+    height: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  &__heading{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+}
+.cardd{
+  width: 393px;
+  height: 207px;
+  background-color: #F6F6F6;
+  border-radius: 15px;
+  padding: 17px;
+  &__heading{
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    
+  }
+  &__text{
+    margin: 0;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #4a4b4c;
+   
+  }
+  &__span{
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5e5f61;
+  }
+}
