@@ -514,15 +514,31 @@ body {
 }
 
 .card__span2::before {
-  background-image: url(./../../images/kv.png);
+  background-image: url(./../../images/bell.png);
 }
 
 .card__span3::before {
-  background-image: url(./../../images/kv.png);
+  background-image: url(./../../images/dns.png);
 }
 
 .card__span4::before {
-  background-image: url(./../../images/kv.png);
+  background-image: url(./../../images/sput.png);
+}
+
+.card__span5::before {
+  background-image: url(./../../images/iree.png);
+}
+
+.card__span6::before {
+  background-image: url(./../../images/ko.png);
+}
+
+.card__span7::before {
+  background-image: url(./../../images/fc.png);
+}
+
+.card__span8::before {
+  background-image: url(./../../images/gbm.png);
 }
 
 .footer {
@@ -643,7 +659,7 @@ body {
 }
 
 .mask__span::before {
-  background-image: url(./../../images/g.png);
+  background-image: url(./../../images/gbm.png);
   content: "";
   position: absolute;
   display: block;

@@ -117,13 +117,25 @@
   
   }
   &__span2::before{
-    background-image: url(./../../images/kv.png);
+    background-image: url(./../../images/bell.png);
     
   }
   &__span3::before{
-    background-image: url(./../../images/kv.png);
+    background-image: url(./../../images/dns.png);
   }
   &__span4::before{
-    background-image: url(./../../images/kv.png);
+    background-image: url(./../../images/sput.png);
+  }
+  &__span5::before{
+    background-image: url(./../../images/iree.png);
+  }
+  &__span6::before{
+    background-image: url(./../../images/ko.png);
+  }
+  &__span7::before{
+    background-image: url(./../../images/fc.png);
+  }
+  &__span8::before{
+    background-image: url(./../../images/gbm.png);
   }
 }
