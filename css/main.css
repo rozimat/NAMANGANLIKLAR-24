@@ -757,11 +757,30 @@ body {
 }
 
 .cardd__span {
-  padding-left: 10px;
+  padding-left: 25px;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
   color: #5e5f61;
+  position: relative;
+}
+
+.cardd__span::before {
+  content: "";
+  position: absolute;
+  margin-right: 15px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: center left;
+  background-size: auto;
+  left: -2%;
+  top: -1%;
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  overflow: hidden;
+  border-radius: 5px;
 }
 
 .contact {
