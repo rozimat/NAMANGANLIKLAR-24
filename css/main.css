@@ -272,8 +272,8 @@ body {
   padding-left: 30px;
 }
 
-.hero__widelink::befor {
-  position: absolute;
+.hero__widelink {
+  background-color: aqua;
   top: 0;
   right: 0;
   margin: 0;
@@ -783,6 +783,7 @@ body {
   border-radius: 5px;
 }
 
+@use "./../variables";
 .contact {
   height: 431px;
   width: 1200px;
